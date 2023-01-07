@@ -1,0 +1,31 @@
+@import './constant.scss';
+
+#root{
+  position: relative;
+}
+
+.main {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+:global(.loadingPlaceHolder) {
+  font-size: 18px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: $bgGray;
+  color: $linkBlue;
+  text-align: center;
+}
+
+:global(.showAll) {
+  line-height: 15px;
+  margin: 0 0 0 10px;
+}
+
+:global(.homeSectionHeader) {
+  padding: 0 0 10px 0;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #eaeaea;  
+}
